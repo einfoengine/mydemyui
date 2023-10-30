@@ -16,7 +16,6 @@ import Testimonials from '@/components/testimonials';
 
 export default function Home() {
   useEffect(()=>{
-    console.log("Maruf");
     AOS.init();
   },[])
   return (

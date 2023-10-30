@@ -1,6 +1,6 @@
 
 
-import { FacebookIcon, YouTubeIcon, LinkedInIcon, DribbbleIcon, InstagramIcon } from '@heroicons/react/24/outline';
+// import { FacebookIcon, YouTubeIcon, LinkedInIcon, DribbbleIcon, InstagramIcon } from '@heroicons/react/24/outline';
 
 const SocialMediaLinks = () => {
   
@@ -8,27 +8,27 @@ const SocialMediaLinks = () => {
   const socialMediaLinks = [
     {
       name: "Facebook",
-      icon: <FacebookIcon />,
+      // icon: <FacebookIcon />,
       url: "https://www.facebook.com/example",
     },
     {
       name: "YouTube",
-      icon: <YouTubeIcon />,
+      // icon: <YouTubeIcon />,
       url: "https://www.youtube.com/example",
     },
     {
       name: "LinkedIn",
-      icon: <LinkedInIcon />,
+      // icon: <LinkedInIcon />,
       url: "https://www.linkedin.com/example",
     },
     {
       name: "Dribbble",
-      icon: <DribbbleIcon />,
+      // icon: <DribbbleIcon />,
       url: "https://www.dribbble.com/example",
     },
     {
       name: "Instagram",
-      icon: <InstagramIcon />,
+      // icon: <InstagramIcon />,
       url: "https://www.instagram.com/example",
     },
   ];
@@ -43,7 +43,8 @@ const SocialMediaLinks = () => {
           rel="noreferrer noopener"
           className="mx-2 text-gray-700 hover:text-gray-900 transition duration-150 ease-in-out"
         >
-          {link.icon}
+          {/* {link.icon} */}
+          icon
         </a>
       ))}
     </div>
