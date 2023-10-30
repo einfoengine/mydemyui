@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 // import Marquee from "react-fast-marquee";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -15,9 +15,10 @@ import Testimonials from '@/components/testimonials';
 
 
 export default function Home() {
-  // useEffect(()=>{
-  //   AOS.init();
-  // },[])
+  useEffect(()=>{
+    console.log("Maruf");
+    AOS.init();
+  },[])
   return (
     <main className="nt-home">
       <Hero/>

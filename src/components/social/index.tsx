@@ -1,6 +1,6 @@
 
 
-import {  } from '@heroicons/react/24/outline'
+import { FacebookIcon, YouTubeIcon, LinkedInIcon, DribbbleIcon, InstagramIcon } from '@heroicons/react/24/outline';
 
 const SocialMediaLinks = () => {
   
@@ -8,27 +8,27 @@ const SocialMediaLinks = () => {
   const socialMediaLinks = [
     {
       name: "Facebook",
-      icon: <Heroicons.outline.FacebookIcon />,
+      icon: <FacebookIcon />,
       url: "https://www.facebook.com/example",
     },
     {
       name: "YouTube",
-      icon: <Heroicons.outline.YouTubeIcon />,
+      icon: <YouTubeIcon />,
       url: "https://www.youtube.com/example",
     },
     {
       name: "LinkedIn",
-      icon: <Heroicons.outline.LinkedInIcon />,
+      icon: <LinkedInIcon />,
       url: "https://www.linkedin.com/example",
     },
     {
       name: "Dribbble",
-      icon: <Heroicons.outline.DribbbleIcon />,
+      icon: <DribbbleIcon />,
       url: "https://www.dribbble.com/example",
     },
     {
       name: "Instagram",
-      icon: <Heroicons.outline.InstagramIcon />,
+      icon: <InstagramIcon />,
       url: "https://www.instagram.com/example",
     },
   ];
