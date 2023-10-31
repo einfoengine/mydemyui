@@ -22,7 +22,7 @@ const Registration = () => {
   }
 
   return (
-    <div className="nt-registration">
+    <div className="nt-page nt-registration">
       <form className="border border-black rounded-lg p-12 mb-10" onSubmit={handleSubmit}>
         <input className="block" type="text" placeholder="What is your name?" onChange={(e)=>{
           setName(e.target.value)

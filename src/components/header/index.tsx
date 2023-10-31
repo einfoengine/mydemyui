@@ -48,9 +48,9 @@ export default function Header() {
             <Link href="/registration" className="text-sm font-semibold leading-6 text-gray-900 x mr-10">
               Registration
             </Link>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 x bg-black rounded-lg py-2 px-6 text-white -mt-3 hover:bg-transparent border hover:text-black border-black">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
+            <Link href="/login" className="text-sm font-semibold leading-6 text-gray-900 x bg-black rounded-lg py-2 px-6 text-white -mt-3 hover:bg-transparent border hover:text-black border-black">
+              Login <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
         </nav>
       </header>
