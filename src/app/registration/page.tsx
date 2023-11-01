@@ -12,7 +12,7 @@ const Registration = () => {
     e.preventDefault();
     console.log("Form submitted");
     try {
-      const {data} = await axios.post("http://localhost:8000/api/registration", {
+      const {data} = await axios.post(`/api/registration`, {
         name, email, number, pass
       });
       console.log("Axios result: ", data);
