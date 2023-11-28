@@ -1,6 +1,6 @@
 'use client'
 
-import {useState } from "react";
+import {useState} from "react";
 import axios from "axios";
 
 const Login = () => {
@@ -8,10 +8,12 @@ const Login = () => {
         user: "",
         pass: ""
     })
+
     const handleSubmit = async (e:any) => {
         e.preventDefault();
-        axios.post(`http://${process.env.SERVER}`,{payload});
-        console.log("Login submit!", payload);
+        console.log("Payload: ", payload);
+        const data = await axios.post(`/api/login`, {...payload});
+        console.log("Login res: ", data);
     }
     const changeUser =(e:any)=>{setPayload({...payload, user: e.target.value})}
     const changePass =(e:any)=>{setPayload({...payload, pass: e.target.value})}
